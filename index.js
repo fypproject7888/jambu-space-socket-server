@@ -1,6 +1,6 @@
 const io = require("socket.io")(process.env.PORT || 8900, {
   cors: {
-    origin: "http://jambu-space-client.herokuapp.com",
+    origin: "https://jambu-space-client.herokuapp.com",
   },
 });
 
